@@ -10,7 +10,7 @@ class Test{
             //out.write(prg);
             //out.close();
 
-            ProcessBuilder pb = new ProcessBuilder("python3", "test1.py");
+            ProcessBuilder pb = new ProcessBuilder("python3", "tf-simple.py");
             Process p = pb.start();
 
             //BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
